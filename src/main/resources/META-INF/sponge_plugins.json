@@ -1,0 +1,33 @@
+{
+  "loader": {
+    "name": "java_plain",
+    "version": "1.0"
+  },
+  "license": "All-Rights-Reserved",
+  "plugins": [
+    {
+      "id": "customhoe",
+      "name": "CustomHoe",
+      "version": "${version}",
+      "entrypoint": "de.hits.customhoe.CustomHoe",
+      "description": "My plugin description",
+      "branding": {},
+      "links": {
+      },
+      "contributors": [
+        {
+          "name": "jarmainee",
+          "description": "Author"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "spongeapi",
+          "version": "11.0.0-SNAPSHOT",
+          "load-order": "after",
+          "optional": false
+        }
+      ]
+    }
+  ]
+}
